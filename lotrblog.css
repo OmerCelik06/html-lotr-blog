@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Arial",sans-serif;
+    background-color: #f0f0f0;
+}
+
+.contactForm {
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 50rem;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 16px;
+  border: 1px solid #ccc;
+
+}
+
+.formHeader {
+    font-size: 2rem;    
+    margin-bottom: 1rem;
+  }
+.contactForm > label {
+    font-size: 10px;
+    color: gray;
+}  
+
+#fullNameInputField,
+#subjectSelectionField {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#messageField {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 10rem;
+  }
+
+.submitButton {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 10rem;
+  }  
+
+.contactFormImage {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 20px;
+  }  
