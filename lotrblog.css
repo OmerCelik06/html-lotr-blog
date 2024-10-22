@@ -12,10 +12,11 @@ body{
 .contactForm {
   width: 30%;
   margin-left: 35%;
-  margin-top: 50rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
   padding: 2rem;
   background-color: #fff;
-  border-radius: 16px;
+  border-radius: 30px;
   border: 1px solid #ccc;
 
 }
@@ -24,8 +25,9 @@ body{
     font-size: 2rem;    
     margin-bottom: 1rem;
   }
+
 .contactForm > label {
-    font-size: 10px;
+    font-size: 20px;
     color: gray;
 }  
 
@@ -44,16 +46,16 @@ body{
     margin-bottom: 0.5rem;
     border: 1px solid #ccc;
     border-radius: 4px;
-    height: 10rem;
+    height: 10rem;  
   }
 
 .submitButton {
-    width: 100%;
-    padding: 0.5rem;
-    margin-bottom: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    height: 10rem;
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
   }  
 
 .contactFormImage {
