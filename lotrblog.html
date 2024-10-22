@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Lord of the Rings Blog</title>
+        <link rel="stylesheet" href="./lotrblog.css"/>
     </head>
     <body>
 
@@ -35,6 +36,30 @@
                 <a href="https://steamcommunity.com/id/OmerSteel/">Steam</a>
             </nav>
         </header>
+        <hr />
+
+        <form>
+            <h2>Contact With Us</h2>
+            <label for="fullNameInputField">Your full name:</label><br />
+            <input type="text" id="fullNameInputField"/>
+            <br /><br />
+            <label for="subjectSelectionField">Subject:</label><br />
+            <select id="subjectSelectionField">
+                <option value="feedback">Feedback</option>
+                <option value="question">Question</option>
+                <option value="support">Support</option>
+            </select>
+            <br /><br />
+            <label for="messageField">Message</label><br />
+            <textarea 
+                id="messageField"
+                cols="25"
+                rows="10"
+                placeholder="Write your message here"
+            ></textarea>
+            <br /><br />
+            <button type="submit" >Submit</button>   
+        </form>
         <hr />
 
         <section>
