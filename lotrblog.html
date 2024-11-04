@@ -8,65 +8,66 @@
     </head>
     <body>
 
-        <h1>Lord of the Rings characters</h1>
-        <p>Characters in the LOTR are usually either good or bad. For example, all of the elves are good and they are against Sauron.
-            Also all of the orcs are bad and they support Sauron. Some characters(generally humans) can be both good or bad.
-            Here are some of my favorite characters in the LOTR.</p>
-        <hr />
+        <h1 class="firstHeader">Lord of the Rings characters</h1>
+            <p class="characters">Characters in the LOTR are usually either good or bad. For example, all of the elves are good and they are against Sauron.
+                Also all of the orcs are bad and they support Sauron. Some characters(generally humans) can be both good or bad.
+                Here are some of my favorite characters in the LOTR.</p>
 
-        <h2>My favorite LOTR characters</h2>
-        <ol>
-            <li>Gandalf</li>
-            <li>Tom Bombadil</li>
-            <li>Aragorn</li>
-            <li>Gimli</li>
-            <li>Treebeard</li>
-        </ol>
-        <hr />
+        <h2 class="favoritesHeader">My favorite LOTR characters</h2>
+            <ol class = "favorites">
+                <li>Gandalf</li>
+                <li>Tom Bombadil</li>
+                <li>Aragorn</li>
+                <li>Gimli</li>
+                <li>Treebeard</li>
+            </ol>
 
-        <p>There is a beautiful illustration of the fight between my favorite character <b>Gandalf</b> and <b>the Durin's Bane</b>.</p>
-        <img src="gandalfvsbalrog.jpg" alt="Gandalf versus Balrog" />
-        <hr />
+        <div class="illustration">
+            <p class="illustrationParagraph">There is a beautiful illustration of the fight between my favorite character <b>Gandalf</b> and <b>the Durin's Bane</b>.</p>
+            <br />
+            <img src="gandalfvsbalrog.jpg" class = "balrog" alt="Gandalf versus Balrog"/>
+        </div>    
+
+        <div class="contact">
+            <p class="contactParagraph">You can contact with us via using this form!</p>
+            <form class="contactForm">
+                <img src="contactus.jpg" class="contactFormImage" />
+                <h2 class="formHeader">Contact With Us</h2>
+                <label for="fullNameInputField">Your full name:</label><br />
+                <input type="text" id="fullNameInputField"/>
+                <br /><br />
+                <label for="subjectSelectionField">Subject:</label><br />
+                <select id="subjectSelectionField">
+                    <option value="feedback">Feedback</option>
+                    <option value="question">Question</option>
+                    <option value="support">Support</option>
+                </select>
+                <br /><br />
+                <label for="messageField">Message</label><br />
+                <textarea 
+                    id="messageField"
+                    cols="25"
+                    rows="10"
+                    placeholder="Write your message here"
+                ></textarea>
+                <br /><br />
+                <button class="submitButton" type="submit">Submit</button>   
+            </form>  
+        </div>
 
         <header>
-            <h1>My Links</h1>
-            <nav>
-                <a href="https://github.com/OmerCelik06">GitHub</a>
-                <a href="https://www.instagram.com/omercelikk06/">Instagram</a>
-                <a href="https://steamcommunity.com/id/OmerSteel/">Steam</a>
+            <h1 class="linksHeader">My Links</h1>
+            <nav class="links">
+                <div><a href="https://github.com/OmerCelik06">GitHub</a></div>
+                <div><a href="https://www.instagram.com/omercelikk06/">Instagram</a></div>
+                <div><a href="https://steamcommunity.com/id/OmerSteel/">Steam</a></div>
             </nav>
         </header>
-        <hr />
-
-        <form class="contactForm">
-            <img src="contactus.jpg" class="contactFormImage" />
-            <h2 class="formHeader">Contact With Us</h2>
-            <label for="fullNameInputField">Your full name:</label><br />
-            <input type="text" id="fullNameInputField"/>
-            <br /><br />
-            <label for="subjectSelectionField">Subject:</label><br />
-            <select id="subjectSelectionField">
-                <option value="feedback">Feedback</option>
-                <option value="question">Question</option>
-                <option value="support">Support</option>
-            </select>
-            <br /><br />
-            <label for="messageField">Message</label><br />
-            <textarea 
-                id="messageField"
-                cols="25"
-                rows="10"
-                placeholder="Write your message here"
-            ></textarea>
-            <br /><br />
-            <button class="submitButton" type="submit">Submit</button>   
-        </form>  
-        <hr />
 
         <section>
             <article>
-                <h2>The Lord of the Rings</h2>
-                <p>The <b>Lord of the Rings</b> is a epic fantasy novel written by <b>J.R.R. Tolkien</b>. It has written in stages between 1937
+                <h2 class="articleHeader">The Lord of the Rings</h2>
+                <p class="article">The <b>Lord of the Rings</b> is a epic fantasy novel written by <b>J.R.R. Tolkien</b>. It has written in stages between 1937
                     and 1949. The <em>war</em> between the Dark Lord Sauron and the folks of the Middle Earth is written in the book.</p>
             </article>
         </section>

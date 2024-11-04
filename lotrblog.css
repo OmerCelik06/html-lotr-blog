@@ -4,14 +4,79 @@
     box-sizing: border-box;
 }
 
-body{
+body {
+    margin-left: 250px;
+    font-size: 10px;
     font-family: "Arial",sans-serif;
     background-color: #f0f0f0;
 }
 
+.firstHeader {
+  margin-top: 25px ;
+}
+
+.characters {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  height :  10%;
+  width : 50%;
+  text-align: center;
+  
+}
+
+.favoritesHeader {
+  margin-top: 25px ;
+}
+
+.favorites {
+  margin-top: 25px ;
+  margin-bottom: 25px;
+  margin-left: 150px; 
+  height : 10%;
+  width: 10%;
+  text-align: center;
+}
+
+.illustrationParagraph {
+  margin-top: auto;
+  margin-bottom: auto;
+  height :  10%;
+  width : 25%;
+  text-align: center;
+}
+
+.illustration {
+  display: flex;
+}
+
+.balrog {
+  display: block;
+  margin-left: 175px;
+  margin-right: auto;
+  height : 40%;
+  width: 30%;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+
+.contact {
+  display: flex;
+}
+
+
+.contactParagraph {
+  margin-top: auto;
+  margin-bottom: auto;
+  height :  10%;
+  width : 25%;
+  text-align: center;
+}
+
 .contactForm {
   width: 30%;
-  margin-left: 35%;
+  margin-left: 175px;
   margin-top: 3rem;
   margin-bottom: 3rem;
   padding: 2rem;
@@ -63,3 +128,26 @@ body{
     border-radius: 12px;
     margin-bottom: 20px;
   }  
+
+.linksHeader {
+  margin-top: 25px;
+}  
+.links {
+  justify-content: flex-start;
+  height : 10%;
+  width: 10%;
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  }  
+
+.articleHeader {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}  
+.article {
+  width: 50%;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
